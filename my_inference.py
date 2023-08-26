@@ -41,12 +41,12 @@ while True:
         print('输入错误，请重新输入')
         continue
     inputs = inputs.to(model.device)
-    pred = finetune_model.generate(**inputs, **gen_kwargs)
-    # print(pred)
-    print('AI:', end='')
-    print(tokenizer.decode(pred.cpu()[0], skip_special_tokens=True))
-
     pred = model.generate(**inputs, **gen_kwargs)
     # print(pred)
-    print('AI2:', end='')
+    print('AI(微调前):', end='')
+    print(tokenizer.decode(pred.cpu()[0], skip_special_tokens=True))
+
+    pred = finetune_model.generate(**inputs, **gen_kwargs)
+    # print(pred)
+    print('AI(微调后):', end='')
     print(tokenizer.decode(pred.cpu()[0], skip_special_tokens=True))

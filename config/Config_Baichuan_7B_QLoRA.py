@@ -1,5 +1,6 @@
 model_path = 'remote_scripts/Baichuan-7B'
 output_dir =  "saved_files/Baichuan_7B_QLoRA_t32"
+data_path = 'data/chinese_thesis'
 per_device_train_batch_size =  8
 gradient_accumulation_steps =  1
 learning_rate = 1e-3

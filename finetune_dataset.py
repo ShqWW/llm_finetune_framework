@@ -3,7 +3,7 @@ import os
 import re
 import json
 class PreDataset(torch.utils.data.Dataset):
-    def __init__(self, tokenizer, datapath='data', eos_token_id=2, pad_token_id=0, ignore_label_id=-100, max_len = 2048):
+    def __init__(self, tokenizer, datapath, eos_token_id=2, pad_token_id=0, ignore_label_id=-100, max_len = 2048):
     #    self.alltext = ['我是大煞笔', '你是大聪明是吧哼嘿哈']
         # self.alltext = ['我是大疆助手，欢迎随时向我提问', '你是如何学习和记忆的']
         self.alltext = []

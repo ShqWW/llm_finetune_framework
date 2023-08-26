@@ -109,7 +109,7 @@ def train(args):
 
     print('getting peft model')
     model = get_peft_model(model, lora_config)
-    train_dataset = PreDataset(tokenizer=tokenizer, eos_token_id=args.eos_token_id, pad_token_id=args.pad_token_id, max_len = args.max_len)
+    train_dataset = PreDataset(tokenizer=tokenizer, datapath=args.data_path, eos_token_id=args.eos_token_id, pad_token_id=args.pad_token_id, max_len = args.max_len)
 
     trainer = LoRATrainer(
         model=model,
