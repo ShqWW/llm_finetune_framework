@@ -13,3 +13,4 @@ tiktoken
 einops
 scipy
 transformers_stream_generator
+flash-attn==1.0.5 #其他版本会报错 先安装这个版本

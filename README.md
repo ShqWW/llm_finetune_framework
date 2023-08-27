@@ -12,6 +12,12 @@ cuda版本 cuda11.8
 ```
 pip install -r requirements.txt
 ```
+### 3.手动编译安装flash_atten 包缺少的组件 (可选)
+
+分别打开`flash_attention/csrc/rotary`和`flash_attention/csrc/layer_norm`文件夹，执行
+```
+pip install setup.py
+```
 
 ## 模型与数据
 
