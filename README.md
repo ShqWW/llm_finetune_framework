@@ -20,11 +20,21 @@ pip install -r requirements.txt
 mkdir data
 ```
 
-### 1.模型在huggingface平台上下载并放在`remote_scripts`文件夹
+### 2.模型在huggingface平台上下载并放在`remote_scripts`文件夹
 
 ```
 mkdir remote_scripts
 ```
+
+### 3.各种模型网址
+[Baichuan-7B](https://huggingface.co/baichuan-inc/Baichuan-7B)
+
+[Baichuan-13B-Base](https://huggingface.co/baichuan-inc/Baichuan-13B-Base)
+
+[Qwen-7B](https://huggingface.co/Qwen/Qwen-7B)
+
+[chatglm2-6b](https://huggingface.co/THUDM/chatglm2-6b)
+
 
 ## 运行
 
