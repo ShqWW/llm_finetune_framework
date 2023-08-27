@@ -118,6 +118,7 @@ def train(args):
         eval_dataset=None,
         data_collator=train_dataset.collate_fn
     )
+    
     print('start training')
     trainer.train()
     if local_rank==0:
