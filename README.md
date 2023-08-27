@@ -33,7 +33,7 @@ mkdir remote_scripts
 
 [Qwen-7B](https://huggingface.co/Qwen/Qwen-7B)
 
-[Moss](https://huggingface.co/fnlp/moss-moon-003-base)
+[moss-moon-003-base](https://huggingface.co/fnlp/moss-moon-003-base)
 
 [chatglm2-6b](https://huggingface.co/THUDM/chatglm2-6b)
 
