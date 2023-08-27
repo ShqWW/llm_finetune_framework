@@ -1,4 +1,10 @@
-## 新建conda环境并安装包安装包
+# LLM模型finetune框架使用
+
+cuda版本 cuda11.8
+
+操作系统 ubuntu22.04 server
+
+## 新建conda环境并安装包安
 
 ### 1.到pytorch官网使用pip安装pytorch最新版
 
