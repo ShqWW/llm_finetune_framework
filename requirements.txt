@@ -1,3 +1,4 @@
+# 需要先安装pytorch
 peft
 transformers
 datasets
