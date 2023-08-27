@@ -12,3 +12,4 @@ sentencepiece
 tiktoken
 einops
 scipy
+transformers_stream_generator

@@ -33,8 +33,11 @@ mkdir remote_scripts
 
 [Qwen-7B](https://huggingface.co/Qwen/Qwen-7B)
 
+[Moss](https://huggingface.co/fnlp/moss-moon-003-base)
+
 [chatglm2-6b](https://huggingface.co/THUDM/chatglm2-6b)
 
+### 4.模型配置文件放在`config`文件夹下
 
 ## 运行
 
