@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 分别打开`flash_attention/csrc/rotary`和`flash_attention/csrc/layer_norm`文件夹，执行
 ```
-pip install setup.py
+python setup.py install
 ```
 
 ## 模型与数据
